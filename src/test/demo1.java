@@ -13,6 +13,7 @@ public class demo1 {
 	{
 		System.out.println("Print Hello");
 		System.out.println("GIT Demo Run");
+		System.out.println("Merge branches");
 	}
 
 	

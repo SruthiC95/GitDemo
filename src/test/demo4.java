@@ -10,6 +10,7 @@ public class demo4 {
 	public void HomePage()
 	{
 		System.out.println("Home Page displayed");
+		System.out.println("Development Merge");
 	}
 	
 	// dependsOnMethods will change the alphabetical order execution 
