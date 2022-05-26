@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="TestNG Suite">
+
+	<!-- Parameter is added to the suite/test to make the value centralized  to call  -->
+	<parameter name="URL" value="https://google.com/" />
+	<parameter name="Key/Username" value="Sruthi95" />
+	<test thread-count="5" name="Regression">
+
+		<classes>
+
+			<class name="test.demo5" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

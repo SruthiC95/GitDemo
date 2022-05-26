@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="TestNG Suite">
+	<test thread-count="5" name="TestNGTest">
+		<classes>
+			<class name="test.demo1">
+				<methods>
+					<!--Added include tag to add the particular test by method name -->
+					<include name="Run" />
+				</methods>
+			</class>
+			<class name="test.demo2" />
+		</classes>
+	</test> <!-- Test -->
+
+	<!--Separate test suite for Modules -->
+
+	<test thread-count="5" name="WebPageTest">
+		<classes>
+			<class name="test.demo3">
+				<methods>
+					<!--Added exclude tag to remove the particular test by method name -->
+					<exclude name="LoginPage" />
+					<!--excluding tag by using regular expression so the method name start with Master will be removed -->
+					<exclude name="Master.*" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite> <!-- Suite -->
