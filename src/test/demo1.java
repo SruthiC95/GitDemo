@@ -20,6 +20,7 @@ public class demo1 {
 	public void Second()
 	{
 		System.out.println("Second Test case");
+		System.out.println("Development Update");
 	}
 	
 	// After Test annotation will execute at the end of the test block in xml 

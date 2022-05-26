@@ -42,6 +42,11 @@ public class demo3 {
 	}
 	
 	@Test
+	public void Dev()
+	{
+		System.out.println("Development displayed");
+	}
+	@Test
 	public void MasterPage()
 	{
 		System.out.println("Master Page displayed");
