@@ -22,6 +22,7 @@ public class demo5 {
 	public void LoginPage()
 	{
 		System.out.println("Login Page displayed");
+		System.out.println("Updated git");
 	}
 	
 
